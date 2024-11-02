@@ -4,6 +4,12 @@ import Link from "next/link";
 import {faFileAlt} from '@fortawesome/free-solid-svg-icons';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: "About Me - Hakobyan Private Web Developer",
+    description: "Full Stack Web Developer with 12 years in WordPress, creating dynamic, scalable web solutions.",
+};
 
 export default function Home() {
     const currentYear = new Date().getFullYear();
