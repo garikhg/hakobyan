@@ -29,14 +29,21 @@ export default function Home() {
                 <div className="container p-8 pb-20 gap-16 sm:p-20">
                     <section className="mb-8">
                         <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-16">About Me</h2>
-                        <p className="text-3xl font-light leading-normal">
-                            Hi, I&apos;m Garegin, a Web Developer with 12 years of experience specializing in Full
-                            Stack development and WordPress. Throughout my career, I have combined my technical
-                            expertise and creative insight to craft dynamic and user-friendly websites and applications.
-                            My deep understanding of both frontend and backend technologies allows me to build
-                            comprehensive digital solutions that are not only visually appealing but also efficient and
-                            scalable. I am passionate about developing innovative web experiences that leave a lasting
-                            impact.
+                        <p className="text-2xl font-light leading-normal mb-4">
+                            Hi, I&apos;m Garegin, a Web Developer with 12 years of experience specializing in Full Stack
+                            development and WordPress. Throughout my career, I have combined my technical expertise and
+                            creative insight to craft dynamic and user-friendly websites and applications. My deep
+                            understanding of both frontend and backend technologies allows me to build comprehensive
+                            digital solutions that are not only visually appealing but also efficient and scalable. I am
+                            passionate about developing innovative web experiences that leave a lasting impact.
+                        </p>
+                        <p className="text-2xl font-light leading-normal">
+                            I am the author of digital product development for WordPress, including
+                            <a href="https://wordpress.org/themes/wp-kit-elementor/" target="_blank" rel="noopener noreferrer">WP Kit Elementor</a> on
+                            WordPress Themes platforms, and the creator of the <a href="https://github.com/garikhg/woo-ipay-acba" target="_blank" rel="noopener noreferrer">iPay
+                            WooCommerce</a> Payment Gateway Plugin for ACBA Bank plugin. Additionally, I am the developer of the corporate portal for
+                            <a href="https://www.unibank.am/en/" target="_blank" rel="noopener noreferrer">Unibank</a>,
+                            further showcasing my ability to deliver high-quality solutions for complex, large-scale projects.
                         </p>
                     </section>
 
