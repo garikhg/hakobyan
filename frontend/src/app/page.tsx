@@ -19,8 +19,8 @@ export default function Home() {
                         />
                     </div>
                     <div className="w-full md:w-1/2">
-                        <div className="flex items-center justify-end">
-                            <span className="text-sm text-[#73767b] uppercase mr-2.5">Email:</span> garik.28h@gmail.com
+                        <div className="flex items-center justify-end uppercase text-sm gap-2.5">
+                            <span className="text-[#73767b] uppercase">Email:</span> garik.28h@gmail.com
                         </div>
                     </div>
                 </div>
