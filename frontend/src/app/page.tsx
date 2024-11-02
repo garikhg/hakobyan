@@ -30,11 +30,10 @@ export default function Home() {
                     <section className="mb-8">
                         <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-16">About Me</h2>
                         <p className="text-3xl font-light leading-normal">
-                            Hi, I'm Garegin, a Full Stack WordPress Developer based in Armenia. I am passionate
+                            Hi, I&apos;m Garegin, a Full Stack WordPress Developer based in Armenia. I am passionate
                             about both development and design, which fuels my drive to create seamless, visually
                             captivating, and immersive digital experiences. With a focus on full stack development, I
-                            aim to
-                            build innovative and impactful web solutions that resonate with users and leave a lasting
+                            aim to build innovative and impactful web solutions that resonate with users and leave a lasting
                             impression.
                         </p>
                     </section>
