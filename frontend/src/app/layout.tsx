@@ -16,6 +16,12 @@ const geistMono = localFont( {
     weight: "100 900",
 } );
 
+const interSans = Inter( {
+    variable: "--font-inter",
+    weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+    subsets: ["latin"],
+} );
+
 const poppinsSans = Poppins( {
     variable: "--font-poppins",
     weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -31,7 +37,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
     return (
         <html lang="en" data-lt-installed="true">
         <body
-            className={`${geistSans.variable} ${geistMono.variable} ${poppinsSans.variable} antialiased`}
+            className={`${geistSans.variable} ${geistMono.variable} ${interSans.variable}  ${poppinsSans.variable} antialiased`}
         >
         {children}
         </body>
