@@ -82,7 +82,9 @@ export default function Home() {
                                         <h4 className="text-md font-semibold uppercase">
                                             Sourcefit - Full-Stack | WordPress Developer
                                         </h4>
-                                        <p className="text-slate-500 text-md">Sep 2023 - Present</p>
+                                        <p className="text-slate-500 text-xs uppercase mt-0.5">
+                                            Sep 2023 - Present
+                                        </p>
                                     </div>
                                     <div className="col-span-2 text-slate-700 font-light">
                                         <p>
@@ -101,7 +103,9 @@ export default function Home() {
                                         <h4 className="text-md font-semibold uppercase">
                                             Fiverr - Full-Stack | WordPress Developer
                                         </h4>
-                                        <p className="text-slate-500 text-md">Aug 2023 - Sep 2023 · 2 mos</p>
+                                        <p className="text-slate-500 text-xs uppercase mt-0.5">
+                                            Aug 2023 - Sep 2023 · 2 mos
+                                        </p>
                                     </div>
                                     <div className="col-span-2 text-slate-700 font-light">
                                         <p>
@@ -121,7 +125,7 @@ export default function Home() {
                                         <h4 className="text-md font-semibold uppercase">
                                             WebEffect - Full-Stack | WordPress Developer
                                         </h4>
-                                        <p className="text-slate-500 text-md">2 yrs 11 mos</p>
+                                        <p className="text-slate-500 text-xs uppercase">2 yrs 11 mos</p>
                                     </div>
                                     <div className="col-span-2 text-slate-700 font-light">
                                         <p>
@@ -141,7 +145,9 @@ export default function Home() {
                                         <h4 className="text-md font-semibold uppercase">
                                             CODE CRAFT LLC - Founder | Full-Stack | WordPress Developer
                                         </h4>
-                                        <p className="text-slate-500 text-md">Oct 2016 - Dec 2018 · 2 yrs 3 mos</p>
+                                        <p className="text-slate-500 text-xs uppercase mt-0.5">
+                                            Oct 2016 - Dec 2018 · 2 yrs 3 mos
+                                        </p>
                                     </div>
                                     <div className="col-span-2 text-slate-700 font-light">
                                         <p>
@@ -160,7 +166,9 @@ export default function Home() {
                                         <h4 className="text-md font-semibold uppercase">
                                             Albedo Graphics - Web Developer
                                         </h4>
-                                        <p className="text-slate-500 text-md">Oct 2008 - Oct 2016 · 8 yrs 1 mo</p>
+                                        <p className="text-slate-500 text-xs uppercase mt-0.5">
+                                            Oct 2008 - Oct 2016 · 8 yrs 1 mo
+                                        </p>
                                     </div>
                                     <div className="col-span-2 text-slate-700 font-light">
                                         <p>
