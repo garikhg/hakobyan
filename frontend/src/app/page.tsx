@@ -46,7 +46,7 @@ export default function Home() {
                         <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">About Me</h2>
                         <div className="space-y-4">
 
-                            <p className="font-light text-lg md:text-xl leading-normal">
+                            <p className="font-light leading-normal">
                                 Hi, I&apos;m Garegin, a Web Developer with 12 years of experience specializing in Full
                                 Stack development and WordPress. Throughout my career, I have combined my technical
                                 expertise and creative insight to craft dynamic and user-friendly websites and
@@ -55,7 +55,7 @@ export default function Home() {
                                 efficient and scalable. I am passionate about developing innovative web experiences that
                                 leave a lasting impact.
                             </p>
-                            <p className="font-light text-lg md:text-xl leading-normal">
+                            <p className="font-light leading-normal">
                                 I am the author of digital products for WordPress, including <a
                                 href="https://wordpress.org/themes/wp-kit-elementor/" target="_blank"
                                 rel="noopener noreferrer">WP Kit Elementor</a> on
@@ -74,17 +74,17 @@ export default function Home() {
                     <Divider/>
 
                     <section className="mt-8">
-                        <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">Work Experience</h3>
+                        <h3 className="scroll-m-20 text-xl font-semibold uppercase tracking-tight">Experience</h3>
                         <div className="flex flex-col flex-wrap mt-8">
                             <div className="block">
                                 <div className="space-y-6">
                                     <div className="relative flex flex-col">
-                                        <h4 className="text-xl font-semibold">
+                                        <h4 className="text-md font-semibold uppercase">
                                             Sourcefit - Full-Stack | WordPress Developer
                                         </h4>
                                         <p className="text-slate-500 text-md">Sep 2023 - Present</p>
                                     </div>
-                                    <div className="col-span-2 text-slate-700 font-light text-lg md:text-xl">
+                                    <div className="col-span-2 text-slate-700 font-light">
                                         <p>
                                             Led the development of advanced websites and WordPress applications at
                                             Sourcefit in Armenia. Collaborated with the team to create custom templates
@@ -98,12 +98,12 @@ export default function Home() {
                             <div className="block">
                                 <div className="space-y-6">
                                     <div className="relative flex flex-col">
-                                        <h4 className="text-xl font-semibold">
+                                        <h4 className="text-md font-semibold uppercase">
                                             Fiverr - Full-Stack | WordPress Developer
                                         </h4>
                                         <p className="text-slate-500 text-md">Aug 2023 - Sep 2023 · 2 mos</p>
                                     </div>
-                                    <div className="col-span-2 text-slate-700 font-light text-lg md:text-xl">
+                                    <div className="col-span-2 text-slate-700 font-light">
                                         <p>
                                             Developed visually appealing and user-friendly WordPress and WooCommerce
                                             websites for Customers from Fiverr, focusing on performance optimization.
@@ -118,12 +118,12 @@ export default function Home() {
                             <div className="block">
                                 <div className="space-y-6">
                                     <div className="relative flex flex-col">
-                                        <h4 className="text-xl font-semibold">
+                                        <h4 className="text-md font-semibold uppercase">
                                             WebEffect - Full-Stack | WordPress Developer
                                         </h4>
                                         <p className="text-slate-500 text-md">2 yrs 11 mos</p>
                                     </div>
-                                    <div className="col-span-2 text-slate-700 font-light text-lg md:text-xl">
+                                    <div className="col-span-2 text-slate-700 font-light">
                                         <p>
                                             Developed complex websites and WordPress templates, plugins, and Gatsby web
                                             applications for WebEffect. Led the team in enhancing website
@@ -138,12 +138,12 @@ export default function Home() {
                             <div className="block">
                                 <div className="space-y-6">
                                     <div className="relative flex flex-col">
-                                        <h4 className="text-xl font-semibold">
+                                        <h4 className="text-md font-semibold uppercase">
                                             CODE CRAFT LLC - Founder | Full-Stack | WordPress Developer
                                         </h4>
                                         <p className="text-slate-500 text-md">Oct 2016 - Dec 2018 · 2 yrs 3 mos</p>
                                     </div>
-                                    <div className="col-span-2 text-slate-700 font-light text-lg md:text-xl">
+                                    <div className="col-span-2 text-slate-700 font-light">
                                         <p>
                                             In my role as Founder of CODE CRAFT LLC in Armenia, Yerevan, I established a
                                             leading website development company specializing on WordPress, 1C-Bitrix,
@@ -157,12 +157,12 @@ export default function Home() {
                             <div className="block">
                                 <div className="space-y-6">
                                     <div className="relative flex flex-col">
-                                        <h4 className="text-xl font-semibold">
+                                        <h4 className="text-md font-semibold uppercase">
                                             Albedo Graphics - Web Developer
                                         </h4>
                                         <p className="text-slate-500 text-md">Oct 2008 - Oct 2016 · 8 yrs 1 mo</p>
                                     </div>
-                                    <div className="col-span-2 text-slate-700 font-light text-lg md:text-xl">
+                                    <div className="col-span-2 text-slate-700 font-light">
                                         <p>
                                             Developed custom websites using 1C-Bitrix, Bitrix24, Drupal, and WordPress,
                                             incorporating front-end development with Webpack and jQuery. Managed version
