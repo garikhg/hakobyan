@@ -33,7 +33,7 @@ export default function Home() {
                             >
                                 <Send className="text-[#73767b] w-4 h-4"/>
                             </a>
-                            <div className="hidden lg:flex items-center">
+                            <div className="hidden lg:flex items-center gap-2">
                                 <span className="text-[#73767b] font-semibold uppercase">Email:</span> garik.28h@gmail.com
                             </div>
                         </div>
