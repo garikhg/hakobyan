@@ -5,6 +5,7 @@ import {faFileAlt} from '@fortawesome/free-solid-svg-icons';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import type {Metadata} from "next";
+import {Send} from "lucide-react";
 
 export const metadata: Metadata = {
     title: "About Me - Hakobyan Private Web Developer",
@@ -16,17 +17,25 @@ export default function Home() {
 
     return (
         <div className="min-h-screen flex flex-col flex-wrap font-[family-name:var(--font-geist-sans)]">
-            <header className="w-full h-[120px] flex items-center justify-between border-b border-slate-100">
+            <header className="w-full h-16 lg:h-[120px] flex items-center justify-between border-b border-slate-100">
                 <div className="container flex items-center px-8 sm:px-20">
-                    <div className="w-full md:w-1/2">
+                    <div className="w-1/2">
                         <Link href="/">
                             <span className="inline-block text-xl font-semibold font-[family-name:var(--font-poppins)]"
                             >Hakobyan</span>
                         </Link>
                     </div>
-                    <div className="w-full md:w-1/2">
-                        <div className="flex items-center justify-end uppercase text-sm gap-2.5">
-                            <span className="text-[#73767b] uppercase">Email:</span> garik.28h@gmail.com
+                    <div className="w-1/2">
+                        <div
+                            className="flex items-center justify-end uppercase text-sm font-[family-name:var(--font-poppins)] gap-2.5">
+                            <a href="mailto:garik.28h@gmail.com"
+                               className="flex lg:hidden justify-center items-center bg-slate-100 rounded-full w-8 h-8"
+                            >
+                                <Send className="text-[#73767b] w-4 h-4"/>
+                            </a>
+                            <div className="hidden lg:flex items-center">
+                                <span className="text-[#73767b] font-semibold uppercase">Email:</span> garik.28h@gmail.com
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -170,7 +179,8 @@ export default function Home() {
                 </div>
             </main>
             <footer className="mt-auto">
-                <div className="container flex flex-col lg:flex-row items-center justify-between p-8 pb-20 gap-4 lg:gap-8 sm:p-20">
+                <div
+                    className="container flex flex-col lg:flex-row items-center justify-between p-8 pb-20 gap-4 lg:gap-8 sm:p-20">
                     <div className="flex items-center gap-4">
                         <a href="https://github.com/garikhg"
                            target="_blank"
