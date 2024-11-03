@@ -15,7 +15,7 @@ const config: Config = {
                 "2xl": "1440px",
             }
         },
-        darkMode: "system",
+        darkMode: "class",
         extend: {
             colors: {
                 background: 'hsl(var(--background))',
